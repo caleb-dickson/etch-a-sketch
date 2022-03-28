@@ -5,12 +5,6 @@ const colorPicker = document.getElementById('colorPicker');
 const gridSizePicker = document.querySelector('option');
 const resetButton = document.getElementById('reset');
 
-// let gridSize = function() {
-//    gridSizePicker.addEventListener('click',
-//    e => gridSize = gridSizePicker.value);
-//    return gridSize;
-// }
-
 window.onload = function() {
    for (i = 1; i <= (gridSize*gridSize); i++) {
       let d = document.createElement("div");

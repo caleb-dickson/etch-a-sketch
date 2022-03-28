@@ -1,3 +1,16 @@
+.bg-red {
+    background-color: #ff3300;
+}
+
+.btn-lg:hover {
+    background-color: #cc2900;
+}
+
+.logo-sig {
+    width: 75vw;
+    max-width: 350px;
+}
+
 .outer-container {
     display: flex;
     flex-direction: column;
@@ -11,12 +24,7 @@
     margin-top: .5em;
 }
 
-/* .form-select {
-    width: 30vh;
-    margin-bottom: 2em;
-} */
-
-#reset /* RESET BUTTON */ {
+#reset {
     height: 2.5em;
     width: 8em;
 }
